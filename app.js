@@ -8,7 +8,7 @@ app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
-  res.render("navbar.ejs");
+  res.render("home.ejs");
 });
 
 app.get("/footer", (req, res) => {
