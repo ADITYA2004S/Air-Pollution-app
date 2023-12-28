@@ -1,0 +1,50 @@
+.solution-heading {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding-bottom: 2rem;
+    text-align: center;
+    padding-top: 5rem;
+    color: #289BD1;
+    font-size: 3rem;
+}
+
+#air-pollution-soln {
+    grid-template-columns: auto auto auto auto;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    justify-content: center;
+    padding-bottom: 5rem;
+    align-items: center;
+    padding-left: 1rem;
+    display: grid;
+    gap: 2rem;
+}
+
+.air-pollution-soln-img {
+    width: 8rem;
+    padding: 0 0 1rem 0;
+}
+
+.pollution-soln-title {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.air-pollution-soln {
+
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.air-pollution-soln:hover {
+    box-shadow: 5px 5px 5px #00000090;
+    transform: scale(1.1);
+    transition: 300ms;
+}
+
+.solution-desc {
+    text-align: left;
+    width: 15rem;
+}

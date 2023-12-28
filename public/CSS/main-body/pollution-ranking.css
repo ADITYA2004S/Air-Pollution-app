@@ -1,0 +1,41 @@
+.live {
+    color: red;
+}
+
+#pollution-rank {
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 2rem 0 5rem 0;
+    /* font-size: 2rem; */
+
+}
+
+.pollution-rank-heading {
+    background-color: white;
+    text-align: center;
+    color: #289BD1;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pollution-rankings {
+    box-shadow: 0px 0px 16px rgb(0 0 0 / 30%);
+    border-radius: 4px;
+    padding: 1rem 5rem;
+    transition: 300ms;
+
+}
+
+.pollution-rankings:hover {
+    transform: translateX(1.5rem);
+    transition: 300ms;
+}
+
+.ranking-desc {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
