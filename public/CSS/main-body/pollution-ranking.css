@@ -24,7 +24,7 @@
 .pollution-rankings {
     box-shadow: 0px 0px 16px rgb(0 0 0 / 30%);
     border-radius: 4px;
-    padding: 1rem 5rem;
+    padding: 1rem 1rem;
     transition: 300ms;
 
 }
@@ -38,4 +38,19 @@
     font-size: 1rem;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
+}
+
+.arrow-img {
+    width: 4rem;
+}
+
+.pollution-rankings {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+}
+
+.pollutin-ranking-title {
+    font-family: 'Poppins', sans-serif;
+
 }

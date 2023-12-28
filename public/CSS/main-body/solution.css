@@ -36,6 +36,8 @@
     border-radius: 20px;
     text-align: center;
     padding: 1rem;
+    transition: 300ms;
+
 }
 
 .air-pollution-soln:hover {
