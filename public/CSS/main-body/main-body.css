@@ -1,14 +1,14 @@
-* {
+/* * {
     overflow-x: hidden;
-}
+} */
 
 #aqi-desc {
     grid-template-columns: auto auto auto;
     justify-content: space-evenly;
+    background-color: #153462;
+    padding-bottom: 3rem;
     align-items: center;
     display: grid;
-    padding-bottom: 3rem;
-    background-color: #153462;
 
 }
 
@@ -144,25 +144,25 @@ a {
 /*------------------------------------------------------------------------------------------------------------------- */
 
 .solution-heading {
-    background-color: white;
-    text-align: center;
-    padding-bottom: 2rem;
-    padding-top: 5rem;
-    font-size: 3rem;
     font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding-bottom: 2rem;
+    text-align: center;
+    padding-top: 5rem;
     color: #289BD1;
+    font-size: 3rem;
 }
 
 #air-pollution-soln {
-    background-color: white;
-    display: grid;
     grid-template-columns: auto auto auto auto;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    padding-left: 1rem;
     font-family: 'Poppins', sans-serif;
+    background-color: white;
+    justify-content: center;
     padding-bottom: 5rem;
+    align-items: center;
+    padding-left: 1rem;
+    display: grid;
+    gap: 2rem;
 }
 
 .air-pollution-soln-img {
@@ -192,4 +192,17 @@ a {
 .solution-desc {
     text-align: left;
     width: 15rem;
+}
+
+.check-aqi-button {
+
+    font-size: 1.4rem;
+    border-style: none;
+    padding: 0.5rem;
+    border-radius: 30px;
+    /* background-color: #125b86; */
+    background-color: #86B6F6;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
 }

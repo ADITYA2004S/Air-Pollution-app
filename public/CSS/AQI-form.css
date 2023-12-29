@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+}
+
+.background-img {
+    height: 100vh;
+    position: relative;
+
+}
+
+.background-img::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    /* background-image: url(../images/AQI-background/pexels-jimmy-liao-17164751.jpg); */
+    /* background-image: url(../images/AQI-background/pexels-yehor-andrukhovych-11604267.jpg); */
+    background-image: url(../images/AQI-background/pexels-zabala-trusido-17160014.jpg);
+    background-size: cover;
+    /* opacity: 1.2; */
+}
+
+
+.form {
+    text-align: center;
+}
+
+.input-title {
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+}
+
+.AQI-search-cityname {
+    font-size: 1.5rem;
+    border-radius: 20px;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.AQI-search-btn {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    padding: 0.3rem 1rem;
+    transition: 500ms;
+
+}
+
+.AQI-search-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px black;
+    transition: 500ms;
+}
+
+.AQI-result-heading {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.AQI-component {
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+    background-color: #ffffff90;
+    padding: 1rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px black;
+
+}
+
+.AQI-search-result {
+    text-align: center;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    /* background-color: #ffffff50; */
+
+}
