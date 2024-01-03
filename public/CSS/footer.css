@@ -1,5 +1,6 @@
     body {
         background-color: #153462;
+        padding-bottom: 2rem;
     }
 
     .footer-part1-title {
@@ -25,8 +26,36 @@
     }
 
     .footer-main-div {
-        display: grid;
         grid-template-columns: auto auto;
         justify-content: space-between;
         align-items: center;
+        display: grid;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        padding: 2rem 0 0 5rem;
+
+    }
+
+    .footer-textbox-heading {
+        font-size: 2rem;
+
+    }
+
+    li {
+        text-align: center;
+        transition: 300ms;
+
+    }
+
+    li:hover {
+        transform: translateX(-5px);
+        transition: 300ms;
+    }
+
+    .footer-textbox-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5rem;
     }

@@ -103,3 +103,11 @@ body {
 .hidden {
     display: none;
 }
+
+.AQI-output-heading {
+    color: black;
+}
+
+.AQI-city-heading {
+    font-size: 3rem;
+}

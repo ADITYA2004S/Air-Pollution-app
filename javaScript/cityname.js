@@ -1,8 +1,9 @@
-const cityName = document.querySelector(".AQI-city-heading");
-const generalText = document.querySelector(".AQI-result-heading");
-cityName.classList.add("hidden");
-generalText.classList.remove("hidden");
-function cityname() {
-  generalText.classList.add("hidden");
-  cityName.classList.remove("hidden");
-}
+const heading = document.querySelector(".AQI-city-heading");
+const result = document.querySelector(".AQI-output-heading");
+heading.classList.remove("hidden");
+
+const button = document.querySelector(".AQI-search-btn");
+button.addEventListener("click", function () {
+  heading.classList.add("hidden");
+  result.classList.remove("hidden");
+});

@@ -27,6 +27,9 @@
     font-size: 2rem;
     line-height: 2;
     color: white;
+    /* padding-bottom: 1rem; */
+    border-bottom-style: dashed solid;
+
 
 }
 
@@ -36,6 +39,7 @@
     font-size: 1.5rem;
     width: 25rem;
     color: white;
+    padding-top: 1rem;
 }
 
 .aqi-info-pic {
@@ -107,6 +111,8 @@
     text-align: left;
     font-size: 2rem;
     line-height: 2;
+    color: white;
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -125,6 +131,7 @@
     transition: 300ms;
     padding: 2rem;
     box-shadow: 10px 10px 10px #86B6F6;
+    color: white;
 
 }
 
@@ -137,6 +144,12 @@
 a {
     color: white;
     text-decoration: none;
+}
+
+
+.pollution-components-info-text {
+    color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 /*------------------------------------------------------------------------------------------------------------------- */
