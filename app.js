@@ -6,6 +6,7 @@ const app = express();
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use(express.static("javaScript"));
+app.use(express.static("./json"));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Dont expose the varibales here -> hackable
@@ -28,8 +29,9 @@ app.get("/body", (req, res) => {
 app.get("/AQI", (req, res) => {
   res.render("AQI", { aqi: aqi, NO2: NO2, SO2: SO2, PM10: PM10, city: city });
 });
-app.get("/em", (req, res) => {
-  res.render("embeded");
+
+app.get("/no", (req, res) => {
+  res.render("json");
 });
 // ------------------------------API Connection-------------------------------------------//
 
