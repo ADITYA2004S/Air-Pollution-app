@@ -6,10 +6,15 @@ const app = express();
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use(express.static("javaScript"));
-app.use(express.static("./json"));
+app.use(express.static("json"));
+
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// Dont expose the varibales here -> hackable
+import No2 from "./json/data/No2.json" assert { type: "json" };
+import So2 from "./json/data/So2.json" assert { type: "json" };
+import Co from "./json/data/Co.json" assert { type: "json" };
+import O3 from "./json/data/O3.json" assert { type: "json" };
+
 var aqi;
 var NO2;
 var SO2;
@@ -30,8 +35,20 @@ app.get("/AQI", (req, res) => {
   res.render("AQI", { aqi: aqi, NO2: NO2, SO2: SO2, PM10: PM10, city: city });
 });
 
-app.get("/no", (req, res) => {
-  res.render("json");
+app.get("/no2", (req, res) => {
+  res.render("No2", { ...No2 }); //used the concept of deconstructing the object
+});
+
+app.get("/so2", (req, res) => {
+  res.render("So2", { ...So2 });
+});
+
+app.get("/co", (req, res) => {
+  res.render("Co", { ...Co });
+});
+
+app.get("/O3", (req, res) => {
+  res.render("O3", { ...O3 });
 });
 // ------------------------------API Connection-------------------------------------------//
 
