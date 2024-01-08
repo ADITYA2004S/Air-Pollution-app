@@ -35,11 +35,11 @@ app.get("/AQI", (req, res) => {
   res.render("AQI", { aqi: aqi, NO2: NO2, SO2: SO2, PM10: PM10, city: city });
 });
 
-app.get("/no2", (req, res) => {
+app.get("/No2", (req, res) => {
   res.render("No2", { ...No2 }); //used the concept of deconstructing the object
 });
 
-app.get("/so2", (req, res) => {
+app.get("/So2", (req, res) => {
   res.render("So2", { ...So2 });
 });
 

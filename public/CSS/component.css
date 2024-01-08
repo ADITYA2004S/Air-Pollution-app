@@ -1,0 +1,86 @@
+body {
+    /* background-image: linear-gradient(180deg, #141E30, #243B55); */
+    /* background-color: #153462; */
+    /* color: white; */
+    /* background-image: url(../images/pollution-components/component-background-img.jpg);
+    background-size: cover; */
+    margin: 0;
+
+
+}
+
+
+
+.component-desc {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: bolder; */
+    padding: 0 1rem 0 0;
+
+
+}
+
+.component-health-desc {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: bolder; */
+
+
+}
+
+.component-eviroment-desc {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: bolder; */
+
+
+}
+
+.introduction {
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+
+
+}
+
+.health-title {
+    text-align: center;
+    font-size: 4rem;
+    line-height: 0;
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: bolder; */
+
+
+
+}
+
+.enviroment-heading {
+    text-align: center;
+    font-size: 4rem;
+    line-height: 0;
+    padding: 2rem 0 0 0;
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: bolder; */
+
+
+}
+
+.component-health-desc {
+    text-align: justify;
+    padding: 1rem 3rem;
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: bolder; */
+
+
+}
+
+.component-eviroment-desc {
+    text-align: justify;
+    padding: 1rem 3rem;
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: bolder; */
+
+
+}

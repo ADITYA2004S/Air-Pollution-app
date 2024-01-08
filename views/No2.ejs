@@ -4,11 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AirPulse | No2</title>
+    <link rel="stylesheet" href="/CSS/component.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>this is json<%= description %></h1>
-    <img src="<%= img %>" alt="" />
-    <h2><%= healtheffect %></h2>
-    <h3><%= enviromental%></h3>
+    <div class="background-img">
+      <div class="introduction">
+        <img class="component-img" src="<%= img %>" alt="" />
+        <p class="component-desc"><%= description %></p>
+      </div>
+      <p class="health-title">Health Effects</p>
+      <p class="component-health-desc"><%= healtheffect %></p>
+      <p class="enviroment-heading">Enviromental Effects</p>
+      <p class="component-eviroment-desc"><%= enviromental%></p>
+    </div>
   </body>
 </html>
