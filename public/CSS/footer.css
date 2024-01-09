@@ -1,61 +1,62 @@
-    body {
-        background-color: #153462;
-        padding-bottom: 2rem;
-    }
+   .footer-part1-title {
+       /* color: white; */
+       font-family: 'Poppins', sans-serif;
+       font-size: 1rem;
+       font-weight: bold;
+   }
 
-    .footer-part1-title {
-        /* color: white; */
-        font-family: 'Poppins', sans-serif;
-        font-size: 1rem;
-        font-weight: bold;
-    }
+   footer {
+       background-color: #153462;
+   }
 
-    li {
-        list-style: none;
-    }
+   li {
+       list-style: none;
+   }
 
-    .social-img {
-        width: 2rem;
-        padding: 2rem;
-        transition: 500ms;
-    }
+   .social-img {
+       width: 2rem;
+       padding: 2rem;
+       transition: 500ms;
+   }
 
-    .social-img:hover {
-        transform: scale(1.2);
-        transition: 500ms;
-    }
+   .social-img:hover {
+       transform: scale(1.2);
+       transition: 500ms;
+   }
 
-    .footer-main-div {
-        grid-template-columns: auto auto;
-        justify-content: space-between;
-        align-items: center;
-        display: grid;
-        color: white;
-        font-family: 'Poppins', sans-serif;
-        padding: 2rem 0 0 5rem;
+   .footer-main-div {
+       grid-template-columns: auto auto;
+       justify-content: space-between;
+       align-items: center;
+       display: grid;
+       color: white;
+       font-family: 'Poppins', sans-serif;
+       padding: 2rem 0 2rem 5rem;
 
-    }
 
-    .footer-textbox-heading {
-        font-size: 2rem;
 
-    }
+   }
 
-    li {
-        text-align: center;
-        transition: 300ms;
+   .footer-textbox-heading {
+       font-size: 2rem;
 
-    }
+   }
 
-    li:hover {
-        transform: translateX(-5px);
-        transition: 300ms;
-    }
+   li {
+       text-align: center;
+       transition: 300ms;
 
-    .footer-textbox-container {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        justify-content: space-between;
-        align-items: center;
-        gap: 5rem;
-    }
+   }
+
+   li:hover {
+       transform: translateX(-5px);
+       transition: 300ms;
+   }
+
+   .footer-textbox-container {
+       display: grid;
+       grid-template-columns: auto auto auto;
+       justify-content: space-between;
+       align-items: center;
+       gap: 5rem;
+   }

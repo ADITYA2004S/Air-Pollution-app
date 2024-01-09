@@ -11,11 +11,12 @@ nav {
     /* background-color: #0C356A; */
     align-items: start;
     display: grid;
+    padding: 0.5rem;
 
 }
 
 .navbar-logo {
-    width: 10rem;
+    width: 5rem;
 }
 
 
@@ -62,5 +63,5 @@ ol {
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
     color: white;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }

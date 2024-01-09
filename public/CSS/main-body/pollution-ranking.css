@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .live {
     color: red;
 }
@@ -19,6 +23,7 @@
     text-align: center;
     color: #289BD1;
     font-family: 'Poppins', sans-serif;
+    opacity: 0;
 }
 
 .pollution-rankings {
@@ -48,6 +53,7 @@
     display: grid;
     grid-template-columns: auto auto;
     gap: 2rem;
+    opacity: 0;
 }
 
 .pollutin-ranking-title {
@@ -58,4 +64,9 @@
 
 a {
     color: black;
+}
+
+.hidden {
+    transform: translate(30px);
+    opacity: 1;
 }
