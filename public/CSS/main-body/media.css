@@ -1,0 +1,41 @@
+.media-pic {
+    width: 20rem;
+}
+
+.media-part-pics {
+    animation: marquee 20s infinite linear;
+    grid-template-columns: repeat(7, auto);
+    justify-content: space-around;
+    align-items: center;
+    display: grid;
+    gap: 2rem;
+}
+
+/* .media-part-pics:hover {
+    animation-play-state: paused;
+} */
+
+.media-part-title {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #289BD1;
+    font-size: 3rem;
+}
+
+/* .media-pic:hover {
+    transform: scale(1.1);
+    transition: 400ms;
+} */
+
+
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
