@@ -12,26 +12,26 @@ body {
 
 
 .component-desc {
-    font-size: 2rem;
     font-family: 'Poppins', sans-serif;
-    /* font-weight: bolder; */
     padding: 0 1rem 0 0;
+    font-size: 2rem;
+
 
 
 }
 
 .component-health-desc {
-    font-size: 2rem;
     font-family: 'Poppins', sans-serif;
-    /* font-weight: bolder; */
+    font-size: 2rem;
+
 
 
 }
 
 .component-eviroment-desc {
-    font-size: 2rem;
     font-family: 'Poppins', sans-serif;
-    /* font-weight: bolder; */
+    font-size: 2rem;
+
 
 
 }
@@ -46,41 +46,41 @@ body {
 }
 
 .health-title {
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 1.5rem;
     text-align: center;
     font-size: 4rem;
-    line-height: 0;
-    font-family: 'Poppins', sans-serif;
-    /* font-weight: bolder; */
+    line-height: 1;
+
 
 
 
 }
 
 .enviroment-heading {
-    text-align: center;
-    font-size: 4rem;
-    line-height: 0;
-    padding: 2rem 0 0 0;
     font-family: 'Poppins', sans-serif;
-    /* font-weight: bolder; */
+    padding: 2rem 0 1.5rem 0;
+    width: fit-content;
+    font-size: 4rem;
+    line-height: 1;
+    margin: auto;
 
 
 }
 
 .component-health-desc {
+    font-family: 'Poppins', sans-serif;
     text-align: justify;
     padding: 1rem 3rem;
-    font-family: 'Poppins', sans-serif;
-    /* font-weight: bolder; */
+
 
 
 }
 
 .component-eviroment-desc {
-    text-align: justify;
-    padding: 1rem 3rem;
     font-family: 'Poppins', sans-serif;
-    /* font-weight: bolder; */
+    text-align: justify;
+    padding: 2rem 3rem;
 
 
 }

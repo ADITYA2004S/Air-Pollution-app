@@ -13,6 +13,7 @@
     />
   </head>
   <body>
+    <%- include("navbar.ejs") %>
     <div class="background-img">
       <div class="introduction">
         <img class="component-img" src="<%= img %>" alt="" />
@@ -23,5 +24,6 @@
       <p class="enviroment-heading">Enviromental Effects</p>
       <p class="component-eviroment-desc"><%= enviromental%></p>
     </div>
+    <%- include("footer.ejs") %>
   </body>
 </html>
