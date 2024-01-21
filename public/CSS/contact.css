@@ -1,0 +1,41 @@
+body {
+    background-image: url(../images/contact-page/contact-page-img.jpg);
+    background-size: cover;
+    /* background-size: auto; */
+
+}
+
+#contact-info {
+    justify-content: space-evenly;
+    grid-template-columns: auto auto;
+    /* text-align: center; */
+    align-items: center;
+    display: grid;
+
+
+}
+
+.text-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    color: white;
+
+}
+
+form {
+    background-color: #80808070;
+    grid-template-columns: auto;
+    display: grid;
+
+    padding: 4rem;
+    border-radius: 10px;
+}
+
+input {
+    width: fit-content;
+    margin: auto;
+}
+
+label {
+    color: white;
+}

@@ -71,6 +71,7 @@
     color: #289BD1;
 
 
+
 }
 
 .website-info-desc {
@@ -78,21 +79,45 @@
     font-family: 'Poppins', sans-serif;
     width: 50rem;
     color: #000000;
+    padding-bottom: 1rem;
+
+}
+
+.aqi-btn {
+    font-family: 'Poppins', sans-serif;
+    background-color: #153462;
+    border-radius: 30px;
+    font-weight: bolder;
+    padding: 1rem 4rem;
+    width: fit-content;
+    transition: 300ms;
+    color: #ffffff;
+    font-size: 1rem;
+
+    border-style: none
+}
+
+.aqi-btn:hover {
+
+    box-shadow: 8px 8px 5px #00000080;
+    background-color: #125b86;
+    transform: scale(1.04);
+    cursor: pointer;
 
 }
 
 #website-info {
-    display: grid;
     grid-template-columns: auto auto;
     justify-content: space-around;
-    align-items: center;
     padding: 2rem 1rem 8rem 0rem;
+    align-items: center;
     color: white;
+    display: grid;
 }
 
 .air-pollution-img {
-    width: 30rem;
     border-radius: 20px;
+    width: 30rem;
 }
 
 
@@ -104,26 +129,25 @@
 #pollution-components {
     grid-template-columns: auto auto auto;
     font-family: 'Poppins', sans-serif;
-    /* background-color: white; */
     justify-content: center;
+    padding-bottom: 2rem;
+    padding-right: 5rem;
     align-items: center;
     padding: 2rem 2rem;
     color: white;
     display: grid;
     gap: 2rem;
-    padding-bottom: 2rem;
-    padding-right: 5rem;
 
 
 
 }
 
 .pollution-components-info-title {
+    font-family: 'Poppins', sans-serif;
     text-align: left;
     font-size: 2rem;
-    line-height: 2;
     color: white;
-    font-family: 'Poppins', sans-serif;
+    line-height: 2;
 
 }
 
