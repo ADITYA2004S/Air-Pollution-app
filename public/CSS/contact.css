@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(../images/contact-page/contact-page-img.jpg);
+    background-image: url(../images/contact-page/contact-page-img\ .jpg);
     background-size: cover;
     /* background-size: auto; */
 
@@ -24,6 +24,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 4rem;
     color: white;
+    padding-top: 4rem;
 
 }
 
@@ -34,6 +35,7 @@ form {
     padding: 1rem 6rem;
     display: grid;
     gap: 2rem;
+    box-shadow: 0 0 250px #ffffff60;
 
 }
 
@@ -50,6 +52,7 @@ input {
     height: 1.5rem;
     outline: unset;
     margin: auto;
+
 }
 
 
@@ -78,7 +81,7 @@ label {
     align-items: center;
     height: fit-content;
     display: grid;
-    padding-bottom: 8rem;
+
 
 
 }
@@ -105,10 +108,13 @@ label {
 .about-info {
     font-family: 'Poppins', sans-serif;
     text-align: justify;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    font-weight: bolder;
     color: #ffffff;
-    padding-top: 1rem;
+    padding-top: 3.2rem;
     width: 40rem;
+    line-height: 1.4;
+    padding-left: 3rem;
 
     /* padding-bottom: 8rem; */
 
