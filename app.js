@@ -1,8 +1,20 @@
 import request from "request";
 import bodyParser from "body-parser";
 import express from "express";
-import mongodb from "mongodb";
+import mongoose from "mongoose";
 const app = express();
+
+mongoose.connect(
+  "mongodb+srv://adityasinghofficial06:adityasinghofficial06@userinfo.5w7syx6.mongodb.net/User_data?retryWrites=true&w=majority"
+);
+
+const UserSchema = new mongoose.Schema({
+  Name: String,
+  Number: String,
+  Email: String,
+});
+
+const User = mongoose.model("User_info", UserSchema);
 
 app.set("view engine", "ejs");
 app.use(express.static("public"));
@@ -10,6 +22,16 @@ app.use(express.static("javaScript"));
 app.use(express.static("json"));
 
 app.use(bodyParser.urlencoded({ extended: true }));
+
+app.post("/contact", (req, res) => {
+  const SaveUser = new User({
+    Name: req.body.Name,
+    Number: req.body.Number,
+    Email: req.body.Email,
+  });
+  SaveUser.save();
+  res.render("contact.ejs");
+});
 
 import No2 from "./json/data/No2.json" assert { type: "json" };
 import So2 from "./json/data/So2.json" assert { type: "json" };
