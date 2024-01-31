@@ -70,3 +70,53 @@ a {
     transform: translate(30px);
     opacity: 1;
 }
+
+@media(max-width:1336px) {
+    .pollution-rank-heading {
+        font-size: 1.5rem;
+    }
+}
+
+@media(width<989px) {
+    #pollution-rank {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media ((width<=771px) and (width>698px)) {
+    #pollution-rank {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pollution-rank-heading {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+
+}
+
+@media (width<698px) {
+    #pollution-rank {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .arrow-img {
+        display: none;
+    }
+
+    .pollution-rank-heading {
+        font-size: 1.5rem;
+        width: 28rem;
+        text-align: center;
+    }
+}

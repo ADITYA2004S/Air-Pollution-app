@@ -60,3 +60,48 @@
        align-items: center;
        gap: 5rem;
    }
+
+   @media (width<=698px) {
+       .footer-textbox-heading {
+           font-size: 1.5rem;
+       }
+
+       li {
+           font-size: rem;
+       }
+
+       .social-img {
+           width: 1rem;
+       }
+
+       .footer-main-div {
+           grid-template-columns: auto auto;
+           justify-content: center;
+           align-items: center;
+           display: grid;
+           color: white;
+       }
+
+       .footer-textbox-container {
+           display: grid;
+           grid-template-columns: auto auto;
+           justify-content: center;
+           align-items: center;
+
+       }
+
+       .footer-social {
+           display: grid;
+           grid-template-columns: auto;
+           justify-content: space-around;
+           align-items: center;
+           padding-right: 2rem;
+           padding-top: 20rem;
+       }
+
+       footer {
+           background-color: #153462;
+           padding-bottom: 0;
+       }
+
+   }

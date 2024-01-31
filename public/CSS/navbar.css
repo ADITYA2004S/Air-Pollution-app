@@ -65,3 +65,29 @@ ol {
     color: white;
     font-size: 2.5rem;
 }
+
+
+
+
+@media(width< 1336px) {
+    .navbar-title {
+        font-size: 1.5rem;
+    }
+
+    .navbar-logo {
+        width: 4rem;
+    }
+
+
+}
+
+@media (width<=698px) {
+    .navbar-desc {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .navbar-title {
+        font-size: 1rem;
+    }
+}

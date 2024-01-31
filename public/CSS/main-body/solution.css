@@ -58,3 +58,58 @@
     opacity: 1;
     transition: 500ms;
 }
+
+@media ((width<=771px) and (width>698px)) {
+    .solution-heading {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    #air-pollution-soln {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .air-pollution-soln-img {
+        width: 8rem;
+    }
+
+    .pollution-soln-title {
+        font-size: 1.5rem;
+    }
+
+    .solution-desc {
+        font-size: 0.8rem;
+    }
+}
+
+@media ((width<=698px)) {
+    #air-pollution-soln {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .solution-heading {
+        font-size: 1.5rem;
+
+
+    }
+
+    .air-pollution-soln-img {
+        width: 5rem;
+    }
+
+    .solution-desc {
+        display: none;
+    }
+
+    .pollution-soln-title {
+        font-size: 1.2rem;
+    }
+
+
+}

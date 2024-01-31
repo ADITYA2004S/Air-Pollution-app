@@ -155,7 +155,7 @@
 .pollution-components-heading {
     font-family: 'Poppins', sans-serif;
     padding-bottom: 2rem;
-    padding-left: 2rem;
+    /* padding-left: 2rem; */
     font-size: 5rem;
     color: #289BD1;
     font-weight: bold;
@@ -280,4 +280,177 @@ a {
 
     transform: translateX(10px);
     opacity: 1;
+}
+
+@media(max-width: 1336px) {
+    .air-pollution-img {
+        width: 25rem;
+    }
+
+    .website-info-title {
+        font-size: 4rem;
+    }
+
+    .website-info-desc {
+        font-size: 1rem;
+        width: 30rem;
+        padding-bottom: 0;
+    }
+
+    .aqi-btn {
+
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+
+    .aqi-desc-title {
+        font-size: 1.5rem;
+    }
+
+    .aqi-desc-info {
+        width: 30rem;
+        font-size: 1rem;
+    }
+
+
+    #aqi-desc {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pollution-components-heading {
+        font-size: 3rem;
+    }
+
+    .pollution-components-info-title {
+        font-size: 1.5rem;
+    }
+
+    .pollution-components-info-text {
+        font-size: 1rem;
+    }
+
+    .aqi-info-pic {
+        width: 40rem;
+    }
+
+    .aqi-info-pic2 {
+        width: 30rem;
+    }
+
+    #air-pollution-soln {
+        font-size: 0.5rem;
+    }
+}
+
+
+@media (width<989px) {
+    #aqi-desc {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .aqi-info-pic {
+        width: 30rem;
+    }
+
+    .aqi-info-pic2 {
+        width: 20rem;
+    }
+
+    #air-pollution-soln {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #pollution-components {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .air-pollution-img {
+        width: 20rem;
+    }
+
+    .website-info-title {
+        font-size: 3rem;
+    }
+
+    #website-info {
+        padding-bottom: 3rem;
+    }
+
+
+}
+
+@media (width<=771px) {
+    .website-info-title {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .air-pollution-img {
+        display: none;
+    }
+
+    #website-info {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .website-info-desc {
+        width: 40rem;
+        text-align: center;
+    }
+
+    .check-btn {
+        padding-top: 1rem;
+        text-align: center;
+    }
+
+    .aqi-info-pic {
+        width: 25rem;
+    }
+
+    .aqi-info-pic2 {
+        width: 20rem;
+    }
+
+    .pollution-components-info-title {
+        text-align: center;
+    }
+
+    .pollution-components-heading {
+        font-size: 2.5rem;
+    }
+}
+
+@media (width<=698px) {
+    .pollution-components-info-text {
+        display: none;
+    }
+
+    .aqi-info-pic {
+        display: none;
+    }
+
+    .aqi-desc-info {
+        display: none;
+    }
+
+    .website-info-desc {
+        width: 20rem;
+        text-align: justify;
+    }
 }
