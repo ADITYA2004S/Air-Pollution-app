@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .solution-heading {
     font-family: 'Poppins', sans-serif;
     background-color: white;
@@ -85,7 +90,7 @@
     }
 }
 
-@media ((width<=698px)) {
+@media ((width<=698px)and (width>321px)) {
     #air-pollution-soln {
         display: grid;
         grid-template-columns: auto auto;
@@ -111,5 +116,33 @@
         font-size: 1.2rem;
     }
 
+
+}
+
+@media(width<321px) {
+    #air-pollution-soln {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .solution-desc {
+        display: none;
+    }
+
+    .pollution-soln-title {
+        font-size: 1.2rem;
+    }
+
+    .air-pollution-soln-img {
+        width: 5rem;
+    }
+
+    .solution-heading {
+        font-size: 1.5rem;
+
+
+    }
 
 }

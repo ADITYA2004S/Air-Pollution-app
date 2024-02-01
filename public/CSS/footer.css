@@ -61,7 +61,7 @@
        gap: 5rem;
    }
 
-   @media (width<=698px) {
+   @media ((width<=698px) and (width>321px)) {
        .footer-textbox-heading {
            font-size: 1.5rem;
        }
@@ -71,7 +71,7 @@
        }
 
        .social-img {
-           width: 1rem;
+           width: 1.5rem;
        }
 
        .footer-main-div {
@@ -92,16 +92,29 @@
 
        .footer-social {
            display: grid;
-           grid-template-columns: auto;
+           grid-template-columns: auto auto auto;
            justify-content: space-around;
            align-items: center;
            padding-right: 2rem;
-           padding-top: 20rem;
+
        }
 
        footer {
            background-color: #153462;
            padding-bottom: 0;
+       }
+
+
+   }
+
+   @media (width<=321px) {
+
+       .footer-textbox-container {
+           display: none;
+       }
+
+       .social-img {
+           width: 1.5rem;
        }
 
    }

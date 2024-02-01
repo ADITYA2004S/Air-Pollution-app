@@ -1,5 +1,6 @@
-body {
-    overflow-x: hidden;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 .live {
@@ -22,6 +23,7 @@ body {
     background-color: white;
     text-align: center;
     color: #289BD1;
+    transform: translateX(-30px);
     font-family: 'Poppins', sans-serif;
     opacity: 0;
 }
@@ -67,7 +69,7 @@ a {
 }
 
 .hidden {
-    transform: translate(30px);
+    transform: translate(0);
     opacity: 1;
 }
 
@@ -102,7 +104,7 @@ a {
 
 }
 
-@media (width<698px) {
+@media ((width<698px) and (width>321px)) {
     #pollution-rank {
         display: grid;
         grid-template-columns: auto;
@@ -118,5 +120,31 @@ a {
         font-size: 1.5rem;
         width: 28rem;
         text-align: center;
+    }
+}
+
+@media(width<321px) {
+    #pollution-rank {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .arrow-img {
+        display: none;
+    }
+
+    .pollution-rank-heading {
+        font-size: 1.5rem;
+        width: 28rem;
+        text-align: center;
+    }
+
+    .pollution-rank-heading {
+        font-size: 1.5rem;
+        text-align: center;
+        width: 20rem;
+
     }
 }
