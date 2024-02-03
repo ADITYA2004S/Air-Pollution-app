@@ -64,6 +64,15 @@
     transition: 500ms;
 }
 
+@media (width<1103px) {
+    #air-pollution-soln {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 @media ((width<=771px) and (width>698px)) {
     .solution-heading {
         font-size: 2.5rem;

@@ -61,6 +61,23 @@
        gap: 5rem;
    }
 
+   @media (width<729px) {
+       .footer-social {
+           display: grid;
+           grid-template-columns: auto auto auto;
+           justify-content: center;
+           align-items: center;
+           padding-top: 2rem;
+       }
+
+       .footer-main-div {
+           display: grid;
+           grid-template-columns: auto;
+           justify-content: center;
+           align-items: center;
+       }
+   }
+
    @media ((width<=698px) and (width>321px)) {
        .footer-textbox-heading {
            font-size: 1.5rem;
@@ -102,6 +119,13 @@
        footer {
            background-color: #153462;
            padding-bottom: 0;
+       }
+
+       .footer-main-div {
+           display: grid;
+           grid-template-columns: auto;
+           justify-content: center;
+           align-items: center;
        }
 
 
