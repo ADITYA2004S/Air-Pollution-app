@@ -56,6 +56,7 @@
     grid-template-columns: auto auto;
     gap: 2rem;
     opacity: 0;
+    transform: translateX(-30px);
 }
 
 .pollutin-ranking-title {
@@ -117,8 +118,9 @@ a {
     }
 
     .pollution-rank-heading {
-        font-size: 1.5rem;
-        width: 25rem;
+        font-size: 1.25rem;
+        width: 22rem;
+        padding-left: 1rem;
 
 
     }
@@ -143,9 +145,16 @@ a {
     }
 
     .pollution-rank-heading {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         text-align: center;
         width: 20rem;
 
+    }
+}
+
+@media (width<426px) {
+    .pollution-rank-heading {
+        font-size: 1.5rem;
+        padding-left: 2.5rem;
     }
 }
