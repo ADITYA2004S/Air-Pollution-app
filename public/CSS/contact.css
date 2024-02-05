@@ -154,7 +154,7 @@ label {
     cursor: pointer;
 }
 
-@media (width<=1440px) {
+@media ((width<=1440px)) {
     form {
         padding-top: 0;
 
@@ -191,4 +191,211 @@ label {
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
+}
+
+@media ((width<1140px) and (width>=1024px)) {
+    form {
+        padding: 1rem 3rem;
+    }
+}
+
+@media ((width<1024px) and (width>=768px)) {
+    .about-info {
+        font-size: 1rem;
+        width: 20rem;
+    }
+
+    form {
+        padding: 1rem 2rem;
+    }
+
+    .form-title {
+        font-size: 2rem;
+    }
+
+    .follow-text {
+        font-size: 1.35rem;
+    }
+
+    .social-media-img {
+        width: 1.5rem;
+    }
+
+    .text-title {
+        font-size: 2.4rem;
+    }
+
+    .hire-text {
+        font-size: 1.8rem;
+    }
+
+    input {
+        width: 15rem;
+    }
+}
+
+@media ((width<768px) and (width>=425px)) {
+
+    body {
+        background-image: url(../images/contact-page/phone-contact-img.jpg);
+        background-size: cover;
+
+    }
+
+    .about-info {
+        display: none;
+    }
+
+    form {
+        padding: 1rem 1rem;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .text-title {
+        padding-top: 0;
+        font-size: 2rem;
+    }
+
+    #contact-info {
+        justify-content: space-evenly;
+        grid-template-columns: auto;
+        align-items: center;
+        height: 100dvh;
+        display: grid;
+
+        /* text-align: center; */
+    }
+
+    .form-title {
+        font-size: 2rem;
+    }
+
+    .follow-text {
+        font-size: 1.5rem;
+    }
+
+    .social-media-img {
+        width: 1.8rem;
+    }
+
+    .submit-btn {
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media((width<425px) and (width>=375px)) {
+    body {
+        background-image: url(../images/contact-page/phone-contact-img.jpg);
+        background-size: cover;
+    }
+
+    .about-info {
+        display: none;
+    }
+
+
+    form {
+        padding: 1rem 1rem;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .form-title {
+        font-size: 2rem;
+    }
+
+    .follow-text {
+        font-size: 1.5rem;
+    }
+
+    .social-media-img {
+        width: 1.8rem;
+    }
+
+    .submit-btn {
+        padding: 0.5rem 1rem;
+    }
+
+    .text-title {
+        padding-top: 0;
+        font-size: 2rem;
+    }
+
+    #contact-info {
+        justify-content: space-evenly;
+        grid-template-columns: auto;
+        align-items: center;
+        height: 100dvh;
+        display: grid;
+
+        /* text-align: center; */
+    }
+
+}
+
+@media ((width<375px)) {
+    body {
+        background-image: url(../images/contact-page/phone-contact-img.jpg);
+        background-size: cover;
+    }
+
+    .about-info {
+        display: none;
+    }
+
+
+    form {
+        padding: 1rem 1rem;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .form-title {
+        font-size: 2rem;
+    }
+
+    .follow-text {
+        font-size: 1.5rem;
+    }
+
+    .social-media-img {
+        width: 1.8rem;
+    }
+
+    .submit-btn {
+        padding: 0.5rem 1rem;
+    }
+
+    .text-title {
+        padding-top: 0;
+        font-size: 2rem;
+    }
+
+    #contact-info {
+        justify-content: space-evenly;
+        grid-template-columns: auto;
+        align-items: center;
+        height: 100dvh;
+        display: grid;
+
+        /* text-align: center; */
+    }
+
+    input {
+        width: 15rem;
+    }
+
 }
