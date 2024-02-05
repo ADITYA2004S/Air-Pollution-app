@@ -288,7 +288,7 @@ label {
     }
 }
 
-@media((width<425px) and (width>=375px)) {
+@media((width<425px)) {
     body {
         background-image: url(../images/contact-page/phone-contact-img.jpg);
         background-size: cover;
@@ -342,7 +342,7 @@ label {
 
 }
 
-@media ((width<375px)) {
+@media ((width<=376px)) {
     body {
         background-image: url(../images/contact-page/phone-contact-img.jpg);
         background-size: cover;
