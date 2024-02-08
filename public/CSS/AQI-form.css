@@ -11,6 +11,8 @@ body {
 
 }
 
+
+
 .form {
     text-align: center;
 }
@@ -37,8 +39,13 @@ body {
     padding: 0.3rem 1rem;
     transition: 500ms;
     box-shadow: 5px 5px 5px black;
-
+    cursor: pointer;
+    border-style: none;
 }
+
+
+
+
 
 /* .AQI-search-btn:hover {
     transform: scale(1.05);
@@ -47,7 +54,10 @@ body {
 
 .AQI-search-btn:active {
     transform: translateY(10px);
+
 }
+
+
 
 .AQI-result-heading {
     text-align: center;
@@ -58,26 +68,25 @@ body {
 
 .AQI-component {
     font-size: 2rem;
+    padding: 0.5rem 0.5rem;
     color: white;
-    font-weight: bold;
     font-family: 'Poppins', sans-serif;
-    background-color: #00000070;
-    padding: 1rem;
+    background-color: #00000080;
     border-radius: 20px;
-    box-shadow: 5px 5px black;
+    box-shadow: 0 0 20px black;
     /* padding-bottom: 2.5rem; */
 
 }
 
 .AQI-search-result {
     text-align: center;
-    z-index: 1;
+
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
-    /* background-color: #ffffff50; */
+    gap: 2rem;
+
 
 }
 
@@ -90,19 +99,25 @@ body {
     background-color: #ffffff90;
     width: fit-content;
     margin: auto;
-    padding: 1rem 5rem 2rem 5rem;
     margin-top: 3rem;
     border-radius: 20px;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
 
 }
 
 #AQI-search {
     padding-bottom: 5rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 
-.hidden {
-    display: none;
-}
+
 
 .AQI-output-heading {
     color: black;
@@ -110,4 +125,65 @@ body {
 
 .AQI-city-heading {
     font-size: 3rem;
+    padding: 0 1rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+input {
+    border-style: none;
+    background-color: #ffffff60;
+    outline: unset;
+    height: 50px;
+
+}
+
+input::placeholder {
+    color: white;
+}
+
+input[type=text]:focus {
+    box-shadow: 0 0 30px #ffffff;
+    border-style: none;
+}
+
+
+
+
+
+@media((width<1024px) and (width>=768px)) {
+    .AQI-city-heading {
+        font-size: 2rem;
+    }
+
+    .input-title {
+        font-size: 2rem;
+    }
+
+    input {
+        height: 40px;
+    }
+
+    .AQI-component {
+        font-size: 1.5rem;
+    }
+}
+
+@media ((width<768px) and (width>=425px)) {
+    .AQI-city-heading {
+        display: none;
+    }
+
+    #AQI-search {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .input-title {
+        font-size: 2rem;
+    }
+
+    input {
+        height: 30px;
+    }
 }
