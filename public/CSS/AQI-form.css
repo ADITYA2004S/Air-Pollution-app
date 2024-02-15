@@ -169,7 +169,7 @@ input[type=text]:focus {
     }
 }
 
-@media ((width<768px) and (width>=425px)) {
+@media ((width<768px) and (width>425px)) {
     .AQI-city-heading {
         display: none;
     }
@@ -177,13 +177,22 @@ input[type=text]:focus {
     #AQI-search {
         display: grid;
         grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
     }
 
     .input-title {
         font-size: 2rem;
+        padding-bottom: 0;
     }
 
     input {
         height: 30px;
+    }
+
+    .AQI-component {
+        font-size: 1.5rem;
+        border-radius: 10;
+        padding: 10px 10px;
     }
 }
