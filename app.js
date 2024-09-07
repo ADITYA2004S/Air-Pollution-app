@@ -113,6 +113,6 @@ app.post("/result", (req, res) => {
   );
 });
 
-app.listen(process.env.PORT || 3000, () => {
-  console.log("server is active at 3000");
+app.listen(3000, () => {
+  console.log("Server is active at port 3000");
 });
